@@ -5,6 +5,8 @@
 > Ticket: [#129 — Angular 4 to Angular 19 + Zard UI Migration](https://github.com/PSMRI/Helpline104-UI/issues/129)  
 > Contributor: **Janesh Kapoor**
 
+**🔗 Live Demo:** [helpline104.netlify.app](https://helpline104.netlify.app/) — credentials are pre-filled, just click **Sign In**
+
 ---
 
 ## Overview
@@ -118,6 +120,14 @@ e2e/
 - All protected routes redirect unauthenticated users to `/login`
 - Session cleared on logout
 - Unknown routes redirect to `/login`
+
+---
+
+## Live Demo
+
+**[https://helpline104.netlify.app/](https://helpline104.netlify.app/)**
+
+Credentials are pre-filled on the login page — just click **Sign In** to explore the full prototype.
 
 ---
 
