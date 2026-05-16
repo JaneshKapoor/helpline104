@@ -15,10 +15,10 @@ export class LoginComponent {
   private readonly authService = inject(AuthService);
   private readonly router = inject(Router);
 
-  userName = '';
-  password = '';
-  captchaInput = '';
+  userName = 'demo';
+  password = 'Demo@1234';
   captchaValue = this.generateCaptcha();
+  captchaInput = this.captchaValue;
   showPassword = false;
   isLoading = signal(false);
   errorMessage = signal('');
